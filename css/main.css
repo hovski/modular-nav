@@ -24,8 +24,16 @@ body {
 
 header {
   background-color: #e2e2e2;
+  text-align: center;
 }
 
-nav {
+nav ul li{
   color: #0074d9;
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav ul li:hover {
+  background-color: #0074d9;
+  color: white;
 }
