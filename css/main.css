@@ -37,3 +37,22 @@ nav ul li:hover {
   background-color: #0074d9;
   color: white;
 }
+
+nav ul a {
+  text-decoration: none;
+  color: #0074d9;
+  display: block;
+}
+
+nav ul a:hover {
+  color: white;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 38em) {
+
+}
